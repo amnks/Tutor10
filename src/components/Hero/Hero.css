@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.heroMain{
+    height: 100vh;
+    display: flex;
+    padding: 40px 20px;
+    justify-content: space-around;
+}
+.heroImage{
+    height: 500px;
+    width: 700px;
+    animation: mover 1.3s infinite  alternate;
+}
+.heroFirstPara{
+    font-size: 36px;
+    font-weight: 700;
+}
+.heroSecondPara{
+    font-size: 36px;
+    font-weight: 700;
+    color: blue;
+}
+.heroLeft{
+    min-height: 500px;
+    display: block;
+    align-items: center;
+    padding-top: 150px;
+}
+.heroRight{
+    display: flex;
+    align-items: center;
+}
+.heroButton{
+    margin-top: 50px;
+}
+.heroThirdPara{
+    padding: 30px 80px;
+    text-align: justify;
+}
+@media screen and (max-width: 920px){
+    .heroImage{
+        height: 270px;
+        width: 340px;
+        animation: move 1.3s infinite  alternate;
+    }
+    .heroMain{
+        display: flex;
+        padding: 40px 20px 0px 20px;
+        flex-direction: column-reverse;
+    }
+    .heroFirstPara{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .heroSecondPara{
+        font-size: 24px;
+        font-weight: 600;
+        color: blue;
+    }
+    .heroLeft{
+        min-height: 300px;
+        padding-top: 0px;
+        display: block;
+        align-items: center;
+        vertical-align: middle;
+        
+    }
+    .heroButton{
+        margin-top: 50px;
+    }
+    .heroThirdPara{
+        padding: 0px 10px;
+        text-align: justify;
+    }
+}

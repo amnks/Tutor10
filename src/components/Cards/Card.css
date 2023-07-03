@@ -1,0 +1,45 @@
+.mainCardDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 430px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 20px 10px;
+    background-color: #fff;
+}
+.cardSecondaryDiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cardImage{
+    border-radius: 30px;
+    height: 250px;
+    width: 280px;
+    align-items: center;
+    background-color: green;
+}
+.cardImageBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cardHeading{
+    margin: 15px 30px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.cardDesc{
+    padding: 5px 10px;
+}
+
+@media screen and (max-width:620px) {
+    .mainCardDiv{
+        margin: 20px 5px;
+    }
+}

@@ -1,0 +1,43 @@
+.mainWhy{
+    min-height: 80vh;
+    padding: 50px 30px;
+}
+.headingWhy{
+    padding: 30px 10px;
+    font-size: 36px;
+    font-weight: 600;
+    justify-items: center;
+    text-align: center;
+}
+.secondaryWhy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.whyCard{
+    min-height: 350px;
+    width: 270px;
+    padding:0px 20px;
+    margin: 30px 10px;
+}
+.whyH2{
+    text-align: center;
+}
+.whyP{
+    margin: 30px 10px;
+    text-align: justify;
+}
+
+@media screen and (max-width:620px){
+    .secondaryWhy{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .whyCard{
+        min-height: 230px;
+        width: inherit;
+        padding:0px 20px;
+        margin: 30px 10px;
+    }
+}
