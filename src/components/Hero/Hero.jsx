@@ -3,14 +3,21 @@ import './Hero.css';
 import { Button } from '../Button/Button';
 
 function Hero() {
+  // React.useEffect(() => {
+  //   lottie.loadAnimation({
+  //     container: document.querySelector("#react-logo"),
+  //     animationData:'https://lottie.host/fa9ca6e9-8f04-4825-a04d-00ed14621ed1/ptYPJPd02s.json',
+  //   });
+  // }, []);
   return (
     <div className='heroMain'>
       <div className='heroLeft'>
-        <p className='heroFirstPara'>Tutor10 : Accelerate Your </p>
-        <p className='heroSecondPara'>Learnings with IITIANS</p>
-        <p className='heroThirdPara'>Take your learning to the next level with Tutor 10's 45-day crash course.
-        Led by IITIANs, you will cover topics in math and science to get ahead 
-         of your regular class. Limited to only 100 students, apply now!</p>
+        <p className='heroFirstPara'>AlgoGeek: Elevate Your Tech </p>
+        <p className='heroSecondPara'>Journey with Experts</p>
+        <p className='heroThirdPara'>Supercharge your tech education with AlgoGeek's immersive learning experience.
+         Our expert-led platform brings you in-depth knowledge of data structures and algorithms,
+          paving the way for a thriving career in the software domain. Join a select group of passionate learners,
+         and unlock the secrets of coding success.</p>
         <div className='heroButton'>
         <Button buttonSize='btn--large'>Enrol Now</Button>
         </div>
@@ -18,7 +25,13 @@ function Hero() {
         
       </div>
       <div className='heroRight'>
-        <img src='/images/19197907.jpg' alt='Bhai' className='heroImage'></img>
+        <img src='/images/cutehero.png' alt='Bhai' className='heroImage'></img>
+        
+        {/* <Lottie 
+	    options={defaultOptions}
+        height={400}
+        width={400}
+      /> */}
       </div>
     </div>
   )

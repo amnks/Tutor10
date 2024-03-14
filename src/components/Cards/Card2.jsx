@@ -1,19 +1,21 @@
 import React from 'react';
 import './Card2.css';
 
-function Card2() {
+function Card2({Name, College, Company, Offers, Desc, Photo, WorkedAt}) {
   return (
     <div class="container">
     <div class="user-image">
-        <img src="https://imageio.forbes.com/specials-images/imageserve/627bd323672c41ea74c88a13/0x0.jpg?format=jpg&crop=1834,1833,x583,y167,safe&height=416&width=416&fit=bounds"
+        <img src={Photo}
         alt="this image contains"/>
     </div>
 
     <div class="content">
-        <h3 class="name">Jackson Schutt</h3>
-        <p class="username">Graduate @IIT BHU</p>
+        <h3 class="name">{Name}</h3>
+        <p class="username">Currently @{Company}</p>
+        {Offers &&<p class="username">Had offers @{Offers}</p>}
+        {WorkedAt &&<p class="username">Previous @{WorkedAt}</p>}
         <p class="details">
-          Graduate from IIT Madras. Passionate about science and its fundamental principles.
+          {Desc}
         </p>
     </div>
 </div>

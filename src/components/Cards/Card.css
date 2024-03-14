@@ -16,16 +16,21 @@
 }
 
 .cardImage{
-    border-radius: 30px;
-    height: 250px;
-    width: 280px;
+    
+    height: 220px;
+    width: 310px;
     align-items: center;
-    background-color: green;
+    background-color: white;
 }
 .cardImageBox{
     display: flex;
     align-items: center;
     flex-direction: column;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
 }
 .cardHeading{
     margin: 15px 30px;
@@ -38,7 +43,7 @@
     padding: 5px 10px;
 }
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:1000px) {
     .mainCardDiv{
         margin: 20px 5px;
     }

@@ -1,0 +1,37 @@
+.copyright{
+    font-size: 15px;
+    font-weight: 400;
+    display: grid;
+    justify-items: end;
+}
+.contact{
+    font-size: 11px;
+    font-weight: 200;
+    display: grid;
+    justify-items: end;
+}
+.footerDiv{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+@media screen and (max-width: 620px){
+
+    .copyright{
+        font-size: 14px;
+        font-weight: 350;
+        display: grid;
+        justify-items: center;
+    }
+    .contact{
+        font-size: 8px;
+        font-weight: 150;
+        display: grid;
+       justify-items: center;
+       padding: 5px 8px;
+    }
+    .footerDiv{
+        display: flex;
+        flex-direction: column;
+    }
+}

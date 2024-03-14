@@ -12,6 +12,27 @@
     line-height: 40px;
     color: #000;
 }
+/* .approachHeading::before {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #8490ff;
+    border-radius: 50%;
+  } */
+/*   
+  .approachHeading::after {
+    content: "";
+    position: absolute;
+    top: 118%;
+    left: 1.5rem;
+    min-width: 20rem;
+  
+    height: 0.3rem;
+    background: #8490ff;
+  } */
 .mainCardDiv1{
     padding: 0px 100px;
     display: flex;
@@ -19,7 +40,7 @@
     justify-content: space-around;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .mainCardDiv1{
        
         display: flex;

@@ -1,18 +1,19 @@
 import React from 'react';
 import './Card.css';
 
-function Card() {
+function Card({ Heading, Writeup, img}) {
   return (
     <div className='mainCardDiv'>
         <div className='cardsecondaryDiv'>
         <div className='cardImageBox'>
-             <div className='cardImage'></div>
+             <div className='cardImage'><img src={img}
+        alt="this image contains"/></div>
         </div>
         <div className='cardHeading'>
-              Yoo Card!!
+              {Heading}
         </div>
         <div className='cardDesc'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit doloremque hic aperiam aspernatur? Nobis dolorem animi doloremque similique laboriosam.
+             {Writeup}
         </div>
         </div>
     </div>

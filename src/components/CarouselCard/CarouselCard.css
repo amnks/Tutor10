@@ -1,0 +1,121 @@
+/* @import '~font-awesome/css/font-awesome.min.css'; */
+.mainCarouselCard{
+    margin: 3rem;
+    /* border: 2px solid black; */
+    
+}
+.fontdiv{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.swiperCardtext{
+    padding: 3rem;
+    background: #fff;
+  border-radius: 1rem;
+  text-align: left;
+  box-shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+  position: relative;
+}
+.swiperCardtext::before {
+    content: "";
+    position: absolute;
+    bottom: -10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5rem solid #fff;
+    border-color: transparent;
+    border-top-color:#f3f4ff;
+}
+.fontIconBefore{
+    vertical-align: .125em!important;
+    content: "\f10d";
+    top: 0;
+    left: 2rem;
+    font-size: 2.7rem;
+    font-family: "fontawesome 6 Free";
+    font-weight: 900;
+    color: #ced3ff;
+  }
+/* .swiperCardtext p::after {
+    content: "\f10e";
+    position: absolute;
+    bottom: 0;
+    right: 3rem;
+    font-size: 5rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #ced3ff;
+  }
+.swiperCardtext p::before {
+    content: "\f10d";
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    font-size: 5rem;
+    font:normal 125%/120% "'Font Awesome 6 Free";
+    font-weight: 900;
+    color: #ced3ff;
+  } */
+  
+  .fontIconAfter {
+    content: "\f10e";
+    position: absolute;
+    bottom: 18px;
+    right: 3rem;
+    font-size: 2.7rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #ced3ff;
+  }
+.swipernextsection{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(auto, 220px));
+    justify-content: center;
+}
+.geekName{
+    display: grid;
+    padding: 2rem 0.2rem;
+    align-items: center;
+    justify-content: center;
+}
+.geekImg{
+    display: grid;
+    justify-content: left ;
+}
+.swiper-slide img{
+    margin: 3rem 0.2rem;
+    max-width: 8rem;
+    height: 8rem!important;
+    border-radius: 50%;
+    border: .5rem solid #ced3ff;
+    
+}
+@media screen and (max-width: 620px){
+    .mainCarouselCard{
+        margin: 1rem;
+        
+    }
+    .swiperCardtext{
+        padding: 1.7rem;
+    }
+    .swiperCardtext::before {
+        content: "";
+        position: absolute;
+        bottom: -6rem;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 3rem solid #fff;
+        border-color: transparent;
+        border-top-color:#f3f4ff;
+    }
+    .fontIconAfter {
+        content: "\f10e";
+        position: absolute;
+        bottom: 10px;
+        right: 3rem;
+        font-size: 2.7rem;
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color: #ced3ff;
+      }
+}

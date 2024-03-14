@@ -53,6 +53,7 @@ body{
  
 .details{
     margin-bottom: 1.8em;
+    padding-top: 5px;
 }
  
 @media screen and (max-width:620px) {

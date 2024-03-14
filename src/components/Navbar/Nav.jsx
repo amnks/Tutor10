@@ -136,7 +136,7 @@ function Nav() {
       <nav className="navbar" onClick={e => e.stopPropagation()}>
         <div className="nav-container">
           <div className="nav-logo">
-            Tutor10
+            AlgoGeek
             <i className="fa fa-code"></i>
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -152,7 +152,7 @@ function Nav() {
             </li>
             <li className="nav-item">
               <a
-                href='#'
+                href='#Approach'
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
@@ -162,17 +162,17 @@ function Nav() {
             </li>
             <li className="nav-item">
               <a
-                href='#'
+                href='#Testimonial'
                 activeClassName="active"
                 className="nav-links"
                 onClick={click ? handleClick : null}
               >
-                Blog
+                Testimonials
               </a>
             </li>
             <li className="nav-item">
               <a
-                href='#'
+                href='#Contact'
                 activeClassName="active"
                 className="nav-links"
                onClick={click ? handleClick : null}

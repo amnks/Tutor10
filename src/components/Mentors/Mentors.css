@@ -3,7 +3,7 @@
     min-height: 100vh;
 }
 .headingMentors{
-    margin-top: 40px;
+    padding-top: 60px;
     text-align: center;
     font-size: 45px;
     font-weight: 600;
@@ -12,18 +12,27 @@
 .secondaryMentor{
     display: flex;
     flex-direction: row;
-    margin: 30px 30px;
-    padding: 0px 300px;
+    margin: 10px 30px;
+    /* padding: 0px 300px; */
     justify-content: space-around;
 }
+
 
 @media screen and (max-width:620px) {
     .secondaryMentor{
         display: flex;
         flex-direction: column;
-        margin: 30px 30px;
+        margin: 10px 30px;
         padding: 0px;
         justify-content: space-around;
     }
     
+}
+@media screen and (min-width:620px) {
+    .innerMentor{
+       width: 800px;
+       display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+    }
 }
